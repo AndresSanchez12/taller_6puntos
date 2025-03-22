@@ -14,8 +14,8 @@
         <a href="">2. Calcular Sucesión de Fibonacci o el factorial</a><br><br>
         <a href="">3. Calcular el promedio, la media y la moda</a><br><br>
         <a href="">4. Calcular la unión, intersección y diferencia de dos conjuntos</a><br><br>
-        <a href="">5. Convertir un número entero en binario.</a><br><br>
-        <a href="">6. Construir un árbol binario según los recorridos preorden, inorden y postorden.</a><br><br>
+        <a href="../taller_6puntos/punto_5/punto_5.php">5. Convertir un número entero en binario.</a><br><br>
+        <a href="../taller_6puntos/punto_6/punto_6.php">6. Construir un árbol binario según los recorridos preorden, inorden y postorden.</a><br><br>
     </section>
     
 </body>
