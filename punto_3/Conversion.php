@@ -18,4 +18,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 <br>
-<a href="index.php">Volver</a>
+<a href="../index.php">Volver</a>
+
