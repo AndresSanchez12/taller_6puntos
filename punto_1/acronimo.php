@@ -41,5 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php if (isset($resultado)): ?>
         <h3>Resultado: <?php echo htmlspecialchars($resultado); ?></h3>
     <?php endif; ?>
+    <a href="../index.php">Volver</a>
 </body>
 </html>

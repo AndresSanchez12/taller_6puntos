@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>taller php</title>
 </head>
 <body>
     <section>
         <h1>MENU PRINCIPAL</h1><br>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4fc3b3735ddcd7bcf9d54d2dd6f22baca3c365c3
         <a href="../taller_6puntos/punto_1/acronimo.php">1. Convertir una frase en su acrónimo.</a><br><br>
         <a href="../taller_6puntos/punto_2/fibonacci.php">2. Calcular Sucesión de Fibonacci o el factorial</a><br><br>
         <a href="../taller_6puntos/punto_3/punto_3.php">3. Calcular el promedio, la media y la moda</a><br><br>

@@ -1,4 +1,23 @@
-<?php
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor a Binario</title>
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> 5f939c49e9eacb393d266413da0da737fefd2be9
+</head>
+<body>
+    <h2>Convertir Número a Binario</h2>
+    <form method="POST">
+        <input type="number" name="numero" placeholder="Ingrese un número entero" required>
+        <button type="submit">Convertir</button>
+    </form>
+    
+    <?php
     class ConversorBinario {
         public function convertir($numero) {
             return decbin($numero);
@@ -11,4 +30,6 @@
         $binario = $conversor->convertir($numero);
         echo "<h3>El número en binario es: $binario</h3>";
     }
-?>
+    ?>
+</body>
+</html>
