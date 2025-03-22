@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor a Binario</title>
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 5f939c49e9eacb393d266413da0da737fefd2be9
+    <title>Conversor a Binario</title>    
 </head>
 <body>
     <h2>Convertir Número a Binario</h2>
