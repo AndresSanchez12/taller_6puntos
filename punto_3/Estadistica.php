@@ -26,17 +26,34 @@ class Estadistica {
 
     // Calcular la moda
     public function calcularModa() {
-        $valores = array_count_values($this->numeros);
+        if (empty($this->numeros)) {
+            return "No hay datos";
+        }
+    
+        // Convertimos todos los valores a cadenas para evitar el error
+        $numerosConvertidos = array_map('strval', $this->numeros);
+        $valores = array_count_values($numerosConvertidos); // Ahora no dará error
+    
+        if (empty($valores)) {
+            return "No hay moda";
+        }
+    
         $maxFrecuencia = max($valores);
         $moda = [];
-
+    
         foreach ($valores as $num => $frecuencia) {
             if ($frecuencia == $maxFrecuencia) {
                 $moda[] = $num;
             }
         }
-
-        return count($moda) == count($valores) ? "No hay moda" : implode(", ", $moda);
+    
+        // Si todos los números tienen la misma frecuencia, se considera sin moda
+        if (count($moda) == count($valores)) {
+            return "No hay moda";
+        }
+    
+        return implode(", ", $moda);
     }
+    
 }
 ?>

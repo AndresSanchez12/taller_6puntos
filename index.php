@@ -9,7 +9,6 @@
 <body>
     <section>
         <h1>MENU PRINCIPAL</h1><br>
-
         <a href="../taller_6puntos/punto_1/acronimo.php">1. Convertir una frase en su acrónimo.</a><br><br>
         <a href="../taller_6puntos/punto_2/fibonacci.php">2. Calcular Sucesión de Fibonacci o el factorial</a><br><br>
         <a href="../taller_6puntos/punto_3/punto_3.php">3. Calcular el promedio, la media y la moda</a><br><br>
