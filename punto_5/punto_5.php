@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor a Binario</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        form { margin-bottom: 20px; }
-        input, button { padding: 10px; font-size: 16px; }
-    </style>
+
 </head>
 <body>
     <h2>Convertir Número a Binario</h2>
