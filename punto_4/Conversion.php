@@ -17,4 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 <br>
-<a href="../index.php">Volver</a>
+<button class="volver" onclick="window.location.href='../punto_4/punto_4.php'">Volver</button>
+<head>
+    <link rel="stylesheet" href="../css.css">
+</head>
