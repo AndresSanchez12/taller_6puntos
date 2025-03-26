@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor a Binario</title>    
+    <link rel="stylesheet" href="../css.css">
+
 </head>
 <body>
+<button class="volver" onclick="window.location.href='../index.php'">Volver</button>
+
     <h2>Convertir Número a Binario</h2>
     <form method="POST">
         <input type="number" name="numero" placeholder="Ingrese un número entero" required>

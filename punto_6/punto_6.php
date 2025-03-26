@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construcción de Árbol Binario</title>
-    <link rel="stylesheet" href="punto6css.css">
+    <link rel="stylesheet" href="../css.css">
+
 </head>
 <body>
+<button class="volver" onclick="window.location.href='../index.php'">Volver</button>
+
     <h2>Construcción de Árbol Binario</h2>
     <form method="POST">
         <input type="text" name="preorden" placeholder="Preorden (ej: A,B,D,E,C)">
         <input type="text" name="inorden" placeholder="Inorden (ej: D,B,E,A,C)">
-        <button type="submit">Construir Árbol</button>
+        <button class="resolver" type="submit">Construir Árbol</button>
     </form>
     
     <?php

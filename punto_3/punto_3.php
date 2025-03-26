@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css.css">
 </head>
 <body>
+<button class="volver" onclick="window.location.href='../index.php'">Volver</button>
 
     <h2>Calculadora de Promedio, Mediana y Moda</h2>
 
@@ -14,11 +15,10 @@
         <label for="numeros">Ingrese los números separados por comas:</label><br>
         <input type="text" name="numeros" required>
         <br><br>
-        <button type="submit">Calcular</button>
+        <button class="resolver"type="submit">Calcular</button>
         <br><br>
     </form>
 
-    <a href="../index.php">Volver</a>
 
 </body>
 </html>

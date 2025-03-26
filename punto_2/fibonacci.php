@@ -44,6 +44,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css.css">
 </head>
 <body>
+<button class="volver" onclick="window.location.href='../index.php'">Volver</button>
+
     <h2>Calculadora de Fibonacci y Factorial</h2>
     <form method="post">
         <label for="numero">Ingrese un número:</label>
@@ -53,12 +55,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="fibonacci">Sucesión de Fibonacci</option>
             <option value="factorial">Factorial</option>
         </select>
-        <button type="submit">Calcular</button>
+        <button class="resolver"type="submit">Calcular</button>
     </form>
     
     <?php if (isset($resultado)): ?>
         <h3>Resultado: <?php echo htmlspecialchars($resultado); ?></h3>
     <?php endif; ?>
-    <a href="../index.php">Volver</a>
-</body>
+    </body>
 </html>

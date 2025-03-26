@@ -2,15 +2,11 @@
 require_once "Conjunto.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recibir los valores ingresados por el usuario
+
     $entradaA = $_POST["conjuntoA"];
     $entradaB = $_POST["conjuntoB"];
-
-    // Convertir los valores a arrays de enteros
     $A = array_map('intval', explode(",", $entradaA));
     $B = array_map('intval', explode(",", $entradaB));
-
-    // Crear el objeto de la clase Conjunto
     $conjuntos = new Conjunto($A, $B);
 
     echo "<h2>Resultados:</h2>";

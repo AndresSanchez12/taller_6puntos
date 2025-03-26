@@ -31,16 +31,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css.css">
 </head>
 <body>
+<button class="volver" onclick="window.location.href='../index.php'">Volver</button>
+
     <h2>Generador de Acrónimos</h2>
     <form method="post">
         <label for="frase">Ingrese una frase:</label>
         <input type="text" id="frase" name="frase" required>
-        <button type="submit">Generar Acrónimo</button>
+        <button class="resolver" type="submit">Generar Acrónimo</button>
     </form>
     
     <?php if (isset($resultado)): ?>
         <h3>Resultado: <?php echo htmlspecialchars($resultado); ?></h3>
     <?php endif; ?>
-    <a href="../index.php">Volver</a>
-</body>
+    </body>
 </html>
